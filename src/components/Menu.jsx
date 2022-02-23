@@ -9,9 +9,9 @@ const Menu = () => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="#home">Hola</Nav.Link>
-            <Nav.Link href="#features">Proyectos</Nav.Link>
-            <Nav.Link href="#pricing">Contacto</Nav.Link>
+            <Nav.Link href="#hola">Hola</Nav.Link>
+            <Nav.Link href="#proyectos">Proyectos</Nav.Link>
+            <Nav.Link href="#contacto">Contacto</Nav.Link>
           </Nav>
           <div>
             <Button variant='warning'>Currículum</Button>

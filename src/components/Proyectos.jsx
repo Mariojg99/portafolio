@@ -30,7 +30,7 @@ const Proyectos = () => {
     }
 
     return (
-        <Container className='py-5'>
+        <Container className='py-5' id='proyectos'>
             <Row>
                 <Col md={6}>
                     <h2>Parece magia, funciona con código</h2>

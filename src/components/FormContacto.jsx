@@ -1,5 +1,5 @@
 import React from 'react';
-import { Form } from 'react-bootstrap';
+import { Button, Form } from 'react-bootstrap';
 
 const FormContacto = () => {
   return (
@@ -13,6 +13,7 @@ const FormContacto = () => {
           <Form.Group className='mb-3'>
               <Form.Control as="textarea" placeholder="Mensaje" />
           </Form.Group>
+          <Button type='submit' variant='outline-warning' className='w-100'>Enviar Mensaje</Button>
       </Form>
   );
 };
